@@ -1,6 +1,6 @@
-# Assignment5_Teja_Scalable
+# Assignment5_CS673_CRN: 72385
 
-For this assignment we have used live stock data to analyse and predict 
+For this assignment, we have used live stock data to analyze and predict 
 
 We have created and assigned the columns 
 Open: float64
@@ -9,17 +9,17 @@ Low: float64
 Close: float64
 Volume: float64
 
-## Step 1: Created API for live stock data retrieving 
-## step 2: We have selected AAPL stock live data 
-## step 3: We have created a function and using the API and stock details have retrived the live data
-## step 4: now we have restted the column 
+## Step 1: Created API for livestock data retrieving 
+## Step 2: We have selected AAPL stock live data 
+## Step 3: We have created a function and using the API and stock details have retrieved the live data
+## Step 4: now we have restated the column 
 ## step 5: Install openjdk-8-jdk and pyspark
-## step 6: Imported SparkSession and Streaming Context, pandas, os
-## step 7: Now load the data into spark app "StockDataApp"
-## step 8: Analysing the data, checking for null values, checking for column schema
-## step 9: Import the Linear Regression and VectorAssembler
-## step 10: transform the dataset using the vectorAssembler
-## Build model usnig the linear regression method 
+## Step 6: Imported SparkSession and Streaming Context, pandas, os
+## Step 7: Now load the data into the spark app "StockDataApp"
+## Step 8: Analysing the data, checking for null values, checking for column schema
+## Step 9: Import the Linear Regression and VectorAssembler
+## Step 10: transform the dataset using the vectorAssembler
+## Build model using the linear regression method 
 
 Now the model is built,
 
@@ -49,7 +49,7 @@ We can print the prediction values
 |173.48550002607305|173.75|
 |172.61981999233387|173.44|
 +------------------+------+
-only showing top 20 rows
+only showing the top 20 rows
 
 
 ## import RegressionEvaluation from pyspark 
@@ -59,5 +59,5 @@ only showing top 20 rows
 Root Mean Square Error (RMSE) on test data = 0.7281846575358627
 R-squared on test data = 0.9906381979944923
 
-## As we can see that the R-squared value is 99.06% we have no need to hyper tune the model
+## As we can see that the R-squared value is 99.06% we do not need to hyper tune the model
 
